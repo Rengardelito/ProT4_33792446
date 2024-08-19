@@ -1,0 +1,27 @@
+{
+  "name": "prot4_33792446",
+  "version": "1.0.0",
+  "description": "Actividad integradora- REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "NODE",
+    "EXPRESS"
+  ],
+  "author": "Navarro Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
